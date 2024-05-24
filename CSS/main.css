@@ -1,0 +1,75 @@
+main {
+  padding: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #e8edf0;
+}
+/* main content ====== */
+
+main .main-content {
+  display: flex;
+  flex-direction: column;
+}
+main .main-content h2 {
+  font-size: 2.2em;
+}
+main .main-content p {
+  width: 60%;
+  font-size: 1.2em;
+  font-weight: 300;
+  margin: 2% 0 10% ;
+}
+
+  /* CARDS ============= */
+main .techs .cards-container {
+  padding-top: 1.5em;
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+
+main .techs .cards-container .cards {
+width: 120px;
+height: 120px;
+padding: 10px;
+background: #9ba8ab80;
+border-radius: 10px;
+cursor: pointer;
+
+display: flex;
+align-items: center;
+justify-content: center;
+transition: 0.2s ease-in-out;
+}
+
+main .techs .cards-container .cards:hover {
+box-shadow:0px 0px 30px #06141b;
+}
+
+.cards img {
+  width: 80%;
+}
+
+/* Figure ============  */
+main figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main figure img {
+  width: 400px;
+  height: 400;
+  border-radius: 50%;
+
+  margin-bottom: 6%;
+  border: 1px solid #06141b;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+main figure img:hover {
+  box-shadow:0px 0px 20px #06141b;
+}
