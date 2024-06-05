@@ -59,30 +59,35 @@ header:hover {
 #social-links a:hover {
   color: #e8edf0;
 }
-main {
-  max-width: 80%;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+main .projetos {
+  
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  gap: 5em;
   color: #e8edf0;
 }
 main .title {
   font-size: 3em;
-  padding: 20px;
+  margin:20px auto;
 }
 main .title .description {
   font-size: 5em;
   padding-bottom: 20px;
 }
+main p {
+  padding-bottom: 20px;
+}
+
 main .card {
   margin: 20px;
 }
 main img {
+  align-items: center;
   background-color: #040c11;
   padding: 10px;
-  width: 400px;
+  width: 300px;
   border-radius: 20px;
+  
 }
  main  a {
   text-decoration: none;
@@ -90,7 +95,7 @@ main img {
   padding: 10px;
   transition: 0.3s ease-in-out;
 }
-main a:hover {
+main .projetos a:hover {
   color: #e8edf0;
 }
 
