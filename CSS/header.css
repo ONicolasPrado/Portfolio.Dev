@@ -8,7 +8,12 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
+#social-links a {
+  font-weight: 500;
+}
 header a {
+  
   text-decoration: none;
 }
 header:hover {
