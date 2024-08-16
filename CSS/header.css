@@ -54,3 +54,13 @@ header:hover {
 #social-links a i:hover {
   animation: both;
 }
+.project a {
+  text-decoration: none;
+  color: #040c11;
+  padding-left: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+.project a:hover {
+  color: #e8edf0;
+}
